@@ -19,7 +19,6 @@
 		"@types/chai": "^4.3.3",
 		"@types/flat": "^5.0.2",
 		"@types/gettext-parser": "4.0.1",
-		"@types/glob": "^8.0.0",
 		"@types/mocha": "^9.1.1",
 		"@types/node": "^16",
 		"braces": "^3.0.2",
@@ -43,7 +42,7 @@
 		"colorette": "^2.0.16",
 		"flat": "^5.0.2",
 		"gettext-parser": "^4.2.0",
-		"glob": "^7.2.0",
+		"glob": "^10.2.2",
 		"path": "^0.12.7",
 		"terminal-link": "^3.0.0",
 		"yargs": "^17.5.1"
@@ -87,7 +86,7 @@
 	},
 	"homepage": "https://github.com/bartholomej/ngx-translate-extract",
 	"engines": {
-		"node": ">=14"
+		"node": ">=16"
 	},
 	"config": {},
 	"publishConfig": {

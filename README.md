@@ -1,5 +1,5 @@
 This is a fork of a great library by Biesbjerg.
-(But the original Beisbjerg's library is unfortunately no longer being developed)
+(But the original Biesbjerg's library is unfortunately no longer being developed)
 
 This library adds compatibility for **Angular 13** and **Angular 14**...
 
