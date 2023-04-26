@@ -146,7 +146,8 @@ export class ExtractTask implements TaskInterface {
 	 * Get all files matching pattern
 	 */
 	protected getFiles(pattern: string): string[] {
-		return sync(pattern).filter((filePath) => fs.statSync(filePath).isFile());
+		const posixPattern = pattern.split(path.sep).join(path.posix.sep);
+		return sync(posixPattern).filter((filePath) => fs.statSync(filePath).isFile());
 	}
 
 	protected out(...args: any[]): void {
